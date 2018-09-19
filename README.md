@@ -52,13 +52,13 @@ at the top of the stack after all the instructions. The possible intructions are
 
 Integer --> Add integer to top of stack e.g. 3, 11, 0...
 
-+ --> Substitute the integer at the top of the stack by the sum of the first and second topmost integers of the stack.
+"+" --> Substitute the integer at the top of the stack by the sum of the first and second topmost integers of the stack.
 
-- --> Substitute the integer at the top of the stack by the topmost integer minus the second topmost integer.
+"-" --> Substitute the integer at the top of the stack by the topmost integer minus the second topmost integer.
 
-DUP --> Duplicates the integer at the top of the stack by placing that same integer to the top again.
+"DUP" --> Duplicates the integer at the top of the stack by placing that same integer to the top again.
 
-POP --> Deletes the topmost integer from the stack.
+"POP" --> Deletes the topmost integer from the stack.
 
 The only parameter is a string which contains all the instructions, for example "5 4 + POP 11 DUP +"
 E.g. "5 4 + POP 11 DUP +" would follow this stack sequence:
