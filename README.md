@@ -59,7 +59,8 @@ problemSolving5
 This problem is more mathematical and graphical. It returns the coordinates of the first point
 a line meets after turning 90 degrees clockwise, after going from point A (AX,AY) to point B (BX,BY). 
 E.g. if A is (0,0) and B is (2,6), the program will return 5,5 as shown below:
-![alt text](https://imgur.com/a/WcukkMT)
+![alt text](http://https://imgur.com/8kARmtQ/to/img.png)
+
 
 problemSolving6
 This problem breaks down a string composed of the 3 types of brackets "()","[]" and "{}" and returns a value to
